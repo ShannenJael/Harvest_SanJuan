@@ -9,13 +9,13 @@
     "orientation": "portrait-primary",
     "icons": [
         {
-            "src": "images/HBC_Logo_Color.png",
+            "src": "images/hbcsanjuan_logo_with_border.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "images/HBC_Logo_Color.png",
+            "src": "images/hbcsanjuan_logo_with_border.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any maskable"

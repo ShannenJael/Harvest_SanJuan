@@ -11,7 +11,7 @@ const urlsToCache = [
     '/js/calendar.js',
     '/js/pwa-install.js',
     '/data/calendar-events.json',
-    '/images/HBC_Logo_Color.png',
+    '/images/hbcsanjuan_logo_with_border.png',
     '/pages/contact.html',
     '/pages/beliefs.html',
     '/pages/ministries.html',

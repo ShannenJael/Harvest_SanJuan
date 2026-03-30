@@ -77,8 +77,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Visit New Movers | Harvest Baptist Church San Juan</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/HBC_Logo_Color.png">
-    <link rel="apple-touch-icon" href="../images/HBC_Logo_Color.png">
+    <link rel="icon" type="image/png" href="../images/hbcsanjuan_logo_with_border.png">
+    <link rel="apple-touch-icon" href="../images/hbcsanjuan_logo_with_border.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -240,7 +240,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="top-bar-content">
                 <div class="top-bar-logo">
                     <a href="../index.html">
-                        <img src="../images/HBC_Logo_Color.png" alt="Harvest Baptist Church San Juan Logo">
+                        <img src="../images/hbcsanjuan_logo_with_border.png" alt="Harvest Baptist Church San Juan Logo">
                     </a>
                 </div>
             </div>
@@ -253,7 +253,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="nav-wrapper">
                 <div class="mobile-logo">
                     <a href="../index.html">
-                        <img src="../images/HBC_Logo_Color.png" alt="Harvest Baptist Church San Juan Logo">
+                        <img src="../images/hbcsanjuan_logo_with_border.png" alt="Harvest Baptist Church San Juan Logo">
                     </a>
                 </div>
 
@@ -286,14 +286,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <a href="ministries.html">Ministries <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu two-column">
                             <li><a href="children.html">Kids</a></li>
-                            <li><a href="youth.html">Elevate Teens</a></li>
+                            
                             <li><a href="couples.html">Couples</a></li>
                             <li><a href="missions.html">Missions</a></li>
                             <li><a href="visitation.html">Visitation</a></li>
                             <li class="dropdown sub-dropdown">
                                 <a href="#">More <i class="fas fa-chevron-down"></i></a>
                                 <ul class="dropdown-menu sub-menu">
-                                    <li><a href="bible-institute.html">Faith Bible Institute</a></li>
+                                    
                                     <li><a href="ushers-help.php">Ushers Help</a></li>
                                 </ul>
                             </li>
@@ -303,7 +303,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <li class="dropdown">
                         <a href="#">Media <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="watch.html">Watch</a></li>
+                            
                             <li><a href="https://www.facebook.com/calvarybaptistchurchfwb" target="_blank">Connect on Facebook</a></li>
                             <li><a href="media-library.html">Harvest Media Library</a></li>
                             <li><a href="privacy.html">Privacy Policy</a></li>
@@ -415,10 +415,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 <div class="footer-section">
                     <h4>Service Times</h4>
-                    <p>Sunday School: 9:15 AM</p>
-                    <p>Sunday Morning: 10:30 AM</p>
-                    <p>Sunday Evening: 6:00 PM</p>
-                    <p>Wednesday Evening: 7:00 PM</p>
+                    <p>Sunday School: 9:30 - 10:30 AM</p>
+<p>Worship Service: 10:30 - 11:30 AM</p>
+<p>Gospel Hour: 2:00 PM - 4:00 PM</p>
+<p>Wednesday Prayer Meeting: 7:30 - 8:30 PM</p>
                 </div>
 
                 <div class="footer-section">
@@ -435,7 +435,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="footer-section">
                     <h4>Contact Us</h4>
                     <p><i class="fas fa-map-marker-alt"></i> 44 San Perfecto St., San Juan, Metro Manila 1500, Philippines</p>
-                    <p><i class="fas fa-phone"></i> 09665744044</p>
+                    <p><i class="fas fa-phone"></i> 09274814536</p>
                     <p><i class="fas fa-envelope"></i> harvestbaptistchurch@gmail.com</p>
                 </div>
             </div>

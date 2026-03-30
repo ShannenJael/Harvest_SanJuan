@@ -106,7 +106,7 @@ usort($volunteers, function($a, $b) {
     <meta name="description" content="New Move In Visitation Volunteers - Harvest Baptist Church San Juan">
     <title>New Move In Visitation Volunteers | Harvest Baptist Church San Juan</title>
 
-    <link rel="icon" type="image/png" href="../images/HBC_Logo_Color.png">
+    <link rel="icon" type="image/png" href="../images/hbcsanjuan_logo_with_border.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>

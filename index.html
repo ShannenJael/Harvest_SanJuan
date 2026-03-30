@@ -53,10 +53,22 @@
             position: relative;
             width: 240px;
             height: 240px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #homeQr {
+            width: 240px;
+            height: 240px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         #homeQr canvas,
         #homeQr img {
+            display: block;
             width: 240px;
             height: 240px;
         }
@@ -143,14 +155,12 @@
                         <a href="ministries.html">Ministries <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu two-column">
                             <li><a href="pages/children.html">Kids</a></li>
-                            <li><a href="pages/youth.html">Elevate Teens</a></li>
-                            <li><a href="pages/couples.html">Couples</a></li>
                             <li><a href="pages/missions.html">Missions</a></li>
                             <li><a href="pages/visitation.html">Visitation</a></li>
                             <li class="dropdown sub-dropdown">
                                 <a href="#">More <i class="fas fa-chevron-down"></i></a>
                                 <ul class="dropdown-menu sub-menu">
-                                    <li><a href="pages/bible-institute.html">Faith Bible Institute</a></li>
+                                    
                                     <li><a href="pages/ushers-help.php">Ushers Help</a></li>
                                 </ul>
                             </li>
@@ -160,7 +170,7 @@
                     <li class="dropdown">
                         <a href="#">Media <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="pages/watch.html">Watch</a></li>
+                            
                             <li><a href="https://www.facebook.com/" target="_blank">Connect on Facebook</a></li>
                             <li><a href="pages/media-library.html">Harvest Media Library</a></li>
                             <li><a href="pages/privacy.html">Privacy Policy</a></li>
@@ -192,33 +202,33 @@
     <!-- Info Boxes Section (FBC Hammond Style - 2 Teal Boxes) -->
     <section class="info-boxes-section">
         <div class="container">
-            <div class="info-boxes-grid">
+            <div class="info-boxes-grid info-boxes-grid-sized">
                 <div class="info-box info-box-teal">
                     <h3>Service Times</h3>
                     <ul class="info-box-list">
-                        <li>Sunday Services: Sunday School (8:00 AM), 1st Service (8:35 AM), 2nd Service (10:30 AM).</li>
-                        <li>Midweek Services: Wednesday Bible Study (7:00 PM) and Friday Prayer Meeting (6:30 PM).</li>
+                        <li>Sunday School: 9:30 - 10:30 AM</li>
+                        <li>Worship Service: 10:30 - 11:30 AM</li>
+                        <li>Gospel Hour: 2:00 PM - 4:00 PM</li>
+                        <li>Wednesday Prayer Meeting: 7:30 - 8:30 PM</li>
                     </ul>
                     <a href="pages/visit.html" class="btn-info-box">Plan Your Visit</a>
                 </div>
                 <div class="info-box info-box-teal">
                     <h3>Church Information</h3>
-                    <p class="info-box-address">
-                        <i class="fas fa-map-marker-alt"></i>
-                        44 San Perfecto St., San Juan, Metro Manila 1500, Philippines<br>
-                        
-                    </p>
-                    <p class="info-box-phone">
-                        <i class="fas fa-phone"></i>
-                        <a href="tel:09999611464">09999611464</a>
-                    </p>
-                    <p class="info-box-email">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:harvestbaptistchurch@gmail.com">harvestbaptistchurch@gmail.com</a>
-                    </p>
-                    <p class="info-box-pastor-contact">
-                        <strong>Pastors Contact number:</strong> Contact: You can reach the church office at <a href="tel:+639999611464">+63 999 961 1464</a> or via email at <a href="mailto:pojasedgar@gmail.com">pojasedgar@gmail.com</a>.
-                    </p>
+                    <ul class="info-box-contact-list">
+                        <li class="info-box-contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>44 San Perfecto St.<br>San Juan, Metro Manila 1500</span>
+                        </li>
+                        <li class="info-box-contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:09274814536">09274814536</a>
+                        </li>
+                        <li class="info-box-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:harvestbaptistchurch@gmail.com">harvestbaptistchurch@gmail.com</a>
+                        </li>
+                    </ul>
                     <a href="pages/contact.html" class="btn-info-box">Contact Us</a>
                 </div>
             </div>
@@ -255,7 +265,7 @@
                 <div class="directions-text">
                     <h2>Find Us</h2>
                     <p class="directions-address"><i class="fas fa-map-marker-alt"></i> 44 San Perfecto St., San Juan, Metro Manila 1500, Philippines</p>
-                    <p class="directions-phone"><i class="fas fa-phone"></i> <a href="tel:09665744044">09665744044</a></p>
+                    <p class="directions-phone"><i class="fas fa-phone"></i> <a href="tel:09274814536">09274814536</a></p>
                     <a href="https://maps.google.com/?q=44+San+Perfecto+St.,+San+Juan,+Metro+Manila+1500,+Philippines" target="_blank" class="btn-directions">
                         <i class="fas fa-directions"></i> Get Directions
                     </a>
@@ -288,12 +298,10 @@
 
                 <div class="footer-section">
                     <h4>Service Times</h4>
-                    <p>Sunday School: 8:00 AM - 8:45 AM</p>
-                    <p>Sunday Worship Service: 9:00 AM - 11:00 AM</p>
-                    <p>Age Group Sessions: 11:00 AM - 11:45 AM</p>
-                    <p>Sunday Gospel Hour: 2:00 PM - 4:00 PM</p>
-                    <p>Monday Bible School: 5:30 PM - 6:30 PM</p>
-                    <p>Friday Prayer Meeting: 5:30 PM - 6:30 PM</p>
+                    <p>Sunday School: 9:30 - 10:30 AM</p>
+<p>Worship Service: 10:30 - 11:30 AM</p>
+<p>Gospel Hour: 2:00 PM - 4:00 PM</p>
+<p>Wednesday Prayer Meeting: 7:30 - 8:30 PM</p>
                 </div>
 
                 <div class="footer-section">
@@ -309,7 +317,7 @@
                 <div class="footer-section">
                     <h4>Contact Us</h4>
                     <p><i class="fas fa-map-marker-alt"></i> 44 San Perfecto St., San Juan, Metro Manila 1500, Philippines</p>
-                    <p><i class="fas fa-phone"></i> 09665744044</p>
+                    <p><i class="fas fa-phone"></i> 09274814536</p>
                     <p><i class="fas fa-envelope"></i> harvestbaptistchurch@gmail.com</p>
                     <a href="https://maps.google.com/?q=44+San+Perfecto+St.,+San+Juan,+Metro+Manila+1500,+Philippines" target="_blank" class="btn btn-small btn-outline mt-2">Get Directions</a>
                 </div>
@@ -420,10 +428,6 @@
     </script>
 </body>
 </html>
-
-
-
-
 
 
 

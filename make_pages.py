@@ -23,10 +23,10 @@ pages = [
 ]
 
 NAV = """    <div class="top-bar"><div class="container"><div class="top-bar-content"><div class="top-bar-logo">
-    <a href="../index.html"><img src="../images/HBC_Logo_Color.png" alt="Harvest Baptist Church San Juan Logo"></a>
+    <a href="../index.html"><img src="../images/hbcsanjuan_logo_with_border.png" alt="Harvest Baptist Church San Juan Logo"></a>
     </div></div></div></div>
     <nav class="navbar"><div class="container"><div class="nav-wrapper">
-        <div class="mobile-logo"><a href="../index.html"><img src="../images/HBC_Logo_Color.png" alt="Harvest Baptist Church San Juan Logo"></a></div>
+        <div class="mobile-logo"><a href="../index.html"><img src="../images/hbcsanjuan_logo_with_border.png" alt="Harvest Baptist Church San Juan Logo"></a></div>
         <button class="mobile-menu-toggle" aria-label="Toggle navigation"><span class="menu-icon"><span></span><span></span><span></span></span><span class="menu-label">Menu</span></button>
         <ul class="nav-menu">
             <li class="dropdown"><a href="#">I'm New <i class="fas fa-chevron-down"></i></a>
@@ -47,7 +47,6 @@ NAV = """    <div class="top-bar"><div class="container"><div class="top-bar-con
                 <ul class="dropdown-menu two-column">
                     <li><a href="children.html">Kids</a></li>
                     <li><a href="youth.html">Elevate Teens</a></li>
-                    <li><a href="couples.html">Couples</a></li>
                     <li><a href="missions.html">Missions</a></li>
                     <li><a href="visitation.html">Visitation</a></li>
                     <li class="dropdown sub-dropdown"><a href="#">More <i class="fas fa-chevron-down"></i></a>
@@ -74,9 +73,9 @@ NAV = """    <div class="top-bar"><div class="container"><div class="top-bar-con
 
 FOOTER = """    <footer class="footer"><div class="container"><div class="footer-content">
         <div class="footer-section"><h3>Harvest Baptist Church San Juan</h3><p>San Juan, Philippines</p><p class="footer-tagline">A place you can call home.</p><div class="social-links"><a href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></div></div>
-        <div class="footer-section"><h4>Service Times</h4><p>Sunday School: 8:00 AM - 8:45 AM</p><p>Sunday Worship: 9:00 AM - 11:00 AM</p><p>Friday Prayer: 5:30 PM - 6:30 PM</p></div>
+        <div class="footer-section"><h4>Service Times</h4><p>Sunday School: 9:30 - 10:30 AM</p><p>Worship Service: 10:30 - 11:30 AM</p><p>Gospel Hour: 2:00 PM - 4:00 PM</p><p>Wednesday Prayer Meeting: 7:30 - 8:30 PM</p></div>
         <div class="footer-section"><h4>Quick Links</h4><ul class="footer-links"><li><a href="about.html">About Us</a></li><li><a href="beliefs.html">What We Believe</a></li><li><a href="ministries.html">Ministries</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
-        <div class="footer-section"><h4>Contact Us</h4><p><i class="fas fa-map-marker-alt"></i> 44 San Perfecto St., San Juan, Metro Manila 1500, Philippines</p><p><i class="fas fa-phone"></i> 09665744044</p><p><i class="fas fa-envelope"></i> harvestbaptistchurch@gmail.com</p></div>
+        <div class="footer-section"><h4>Contact Us</h4><p><i class="fas fa-map-marker-alt"></i> 44 San Perfecto St., San Juan, Metro Manila 1500, Philippines</p><p><i class="fas fa-phone"></i> 09274814536</p><p><i class="fas fa-envelope"></i> harvestbaptistchurch@gmail.com</p></div>
     </div><div class="footer-bottom"><p>&copy; 2026 Harvest Baptist Church San Juan of San Juan, Philippines. All rights reserved.</p></div></div></footer>
     <script src="../js/main.js"></script>
     <script src="../js/pwa-install.js"></script>
@@ -94,8 +93,8 @@ for filename, title, subtitle in pages:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{title} at Harvest Baptist Church San Juan, Philippines.">
     <title>{title} | Harvest Baptist Church San Juan</title>
-    <link rel="icon" type="image/png" href="../images/HBC_Logo_Color.png">
-    <link rel="apple-touch-icon" href="../images/HBC_Logo_Color.png">
+    <link rel="icon" type="image/png" href="../images/hbcsanjuan_logo_with_border.png">
+    <link rel="apple-touch-icon" href="../images/hbcsanjuan_logo_with_border.png">
     <link rel="manifest" href="../manifest.json">
     <meta name="theme-color" content="#14AFB1">
     <meta name="apple-mobile-web-app-capable" content="yes">

@@ -7,8 +7,8 @@
     <title>Watch | Harvest Baptist Church San Juan</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../images/HBC_Logo_Color.png">
-    <link rel="apple-touch-icon" href="../images/HBC_Logo_Color.png">
+    <link rel="icon" type="image/png" href="../images/hbcsanjuan_logo_with_border.png">
+    <link rel="apple-touch-icon" href="../images/hbcsanjuan_logo_with_border.png">
 
     <!-- PWA Manifest -->
     <link rel="manifest" href="../manifest.json">
@@ -476,7 +476,7 @@
             <div class="top-bar-content">
                 <div class="top-bar-logo">
                     <a href="../index.html">
-                        <img src="../images/HBC_Logo_Color.png" alt="Harvest Baptist Church San Juan Logo">
+                        <img src="../images/hbcsanjuan_logo_with_border.png" alt="Harvest Baptist Church San Juan Logo">
                     </a>
                 </div>
             </div>
@@ -490,7 +490,7 @@
                 <!-- Mobile Logo (hidden on desktop) -->
                 <div class="mobile-logo">
                     <a href="../index.html">
-                        <img src="../images/HBC_Logo_Color.png" alt="Harvest Baptist Church San Juan Logo">
+                        <img src="../images/hbcsanjuan_logo_with_border.png" alt="Harvest Baptist Church San Juan Logo">
                     </a>
                 </div>
 
@@ -523,14 +523,12 @@
                         <a href="ministries.html">Ministries <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu two-column">
                             <li><a href="children.html">Kids</a></li>
-                            <li><a href="youth.html">Elevate Teens</a></li>
-                            <li><a href="couples.html">Couples</a></li>
                             <li><a href="missions.html">Missions</a></li>
                             <li><a href="visitation.html">Visitation</a></li>
                             <li class="dropdown sub-dropdown">
                                 <a href="#">More <i class="fas fa-chevron-down"></i></a>
                                 <ul class="dropdown-menu sub-menu">
-                                    <li><a href="bible-institute.html">Faith Bible Institute</a></li>
+                                    
                                     <li><a href="ushers-help.php">Ushers Help</a></li>
                                 </ul>
                             </li>
@@ -540,7 +538,7 @@
                     <li class="dropdown">
                         <a href="#">Media <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="watch.html">Watch</a></li>
+                            
                             <li><a href="https://www.facebook.com/" target="_blank">Connect on Facebook</a></li>
                             <li><a href="media-library.html">Harvest Media Library</a></li>
                             <li><a href="privacy.html">Privacy Policy</a></li>
@@ -567,9 +565,9 @@
                     <div class="live-placeholder" id="livePlaceholder" style="background-image: url('images/Circle Logo.png');"></div>
                 </div>
                 <div class="live-overlay">
-                    <div>Service Times: Sunday 10:30 AM &nbsp;|&nbsp; Sunday 6:00 PM &nbsp;|&nbsp; Wednesday 7:00 PM (Central)</div>
+                    <div>Service Times: Sunday School: 9:30 - 10:30 AM &nbsp;|&nbsp; Worship Service: 10:30 - 11:30 AM &nbsp;|&nbsp; Gospel Hour: 2:00 PM - 4:00 PM &nbsp;|&nbsp; Wednesday Prayer Meeting: 7:30 - 8:30 PM</div>
                     <div><strong id="liveCountdown">--:--:--</strong></div>
-                    <div id="nextServiceText">Next service: Sunday 10:30 AM (Central Time)</div>
+                    <div id="nextServiceText">Next service: Sunday School: 9:30 - 10:30 AM</div>
                 </div>
                 <div class="featured-video-meta">
                     <h3 id="featuredVideoTitle">Live Stream</h3>
@@ -689,10 +687,10 @@
 
                 <div class="footer-section">
                     <h4>Service Times</h4>
-                    <p>Sunday School: 9:15 AM</p>
-                    <p>Sunday Morning: 10:30 AM</p>
-                    <p>Sunday Evening: 6:00 PM</p>
-                    <p>Wednesday Evening: 7:00 PM</p>
+                    <p>Sunday School: 9:30 - 10:30 AM</p>
+<p>Worship Service: 10:30 - 11:30 AM</p>
+<p>Gospel Hour: 2:00 PM - 4:00 PM</p>
+<p>Wednesday Prayer Meeting: 7:30 - 8:30 PM</p>
                 </div>
 
                 <div class="footer-section">
@@ -702,7 +700,7 @@
                         <li><a href="beliefs.html">What We Believe</a></li>
                         <li><a href="ministries.html">Ministries</a></li>
                         
-                        <li><a href="watch.html">Watch</a></li>
+                        
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
@@ -710,7 +708,7 @@
                 <div class="footer-section">
                     <h4>Contact Us</h4>
                     <p><i class="fas fa-map-marker-alt"></i> 44 San Perfecto St., San Juan, Metro Manila 1500, Philippines</p>
-                    <p><i class="fas fa-phone"></i> 09665744044</p>
+                    <p><i class="fas fa-phone"></i> 09274814536</p>
                     <p><i class="fas fa-envelope"></i> harvestbaptistchurch@gmail.com</p>
                 </div>
             </div>
@@ -736,7 +734,10 @@
         const PLAYLIST_PREVIOUS_ID = 'PLqMUBm9mdRf8MsnmzEjo8kuRuBfOTP55h';
         const PLAYLIST_ONE_ID = 'PLqMUBm9mdRf9w1MbVxgY8n4jjBEpaaRy-';
         const PLAYLIST_TWO_ID = 'PLqMUBm9mdRf_0kblDe8m9G2BUQExf5bgL';
-        const USE_LIVE_STREAM = true;
+        const USE_LIVE_STREAM = false;
+        const FEATURED_VIDEO_ID = '7F_Bbjfe4gE';
+        const FEATURED_VIDEO_TITLE = 'Featured Video';
+        const FEATURED_VIDEO_DATE = '';
         const LIVE_STREAM_EMBED = `https://www.youtube.com/embed/live_stream?channel=${encodeURIComponent(YT_CHANNEL_ID)}&autoplay=1&mute=1&rel=0`;
         const PLACEHOLDER_IMAGES = [
             'images/Circle Logo.png'
@@ -762,6 +763,13 @@
                     }
                     featuredTitle.textContent = 'Live Stream';
                     featuredDate.textContent = 'Harvest Baptist Church San Juan';
+                } else if (featuredFrame) {
+                    featuredFrame.src = `https://www.youtube.com/embed/${FEATURED_VIDEO_ID}`;
+                    featuredTitle.textContent = FEATURED_VIDEO_TITLE;
+                    featuredDate.textContent = FEATURED_VIDEO_DATE;
+                    if (placeholder) {
+                        placeholder.classList.add('hidden');
+                    }
                 }
                 // Use YouTube's oEmbed or RSS feed
                 // Since we can't directly fetch RSS due to CORS, we'll use a fallback approach
@@ -771,51 +779,51 @@
                 const videos = [
                     {
                         id: 'mIeRU12STNw',
-                        title: 'Sunday Morning Service',
+                        title: 'Worship Service',
                         date: 'February 2, 2026',
-                        description: 'Join us for our Sunday morning worship service at Harvest Baptist Church San Juan.'
+                        description: 'Join us for our worship service at Harvest Baptist Church San Juan.'
                     },
                     {
                         id: 'dQw4w9WgXcQ',
-                        title: 'Sunday Evening Service',
+                        title: 'Gospel Hour',
                         date: 'February 2, 2026',
-                        description: 'Join us for our Sunday evening service at Harvest Baptist Church San Juan.'
+                        description: 'Join us for our Gospel Hour service at Harvest Baptist Church San Juan.'
                     },
                     {
                         id: 'mIeRU12STNw',
-                        title: 'Wednesday Evening Service',
+                        title: 'Wednesday Prayer Meeting',
                         date: 'January 29, 2026',
                         description: 'Midweek Bible study and prayer service.'
                     },
                     {
                         id: 'mIeRU12STNw',
-                        title: 'Sunday Morning Service',
+                        title: 'Worship Service',
                         date: 'January 26, 2026',
-                        description: 'Join us for our Sunday morning worship service at Harvest Baptist Church San Juan.'
+                        description: 'Join us for our worship service at Harvest Baptist Church San Juan.'
                     },
                     {
                         id: 'mIeRU12STNw',
-                        title: 'Sunday Evening Service',
+                        title: 'Gospel Hour',
                         date: 'January 26, 2026',
-                        description: 'Join us for our Sunday evening service at Harvest Baptist Church San Juan.'
+                        description: 'Join us for our Gospel Hour service at Harvest Baptist Church San Juan.'
                     },
                     {
                         id: 'mIeRU12STNw',
-                        title: 'Wednesday Evening Service',
+                        title: 'Wednesday Prayer Meeting',
                         date: 'January 22, 2026',
                         description: 'Midweek Bible study and prayer service.'
                     },
                     {
                         id: 'mIeRU12STNw',
-                        title: 'Sunday Morning Service',
+                        title: 'Worship Service',
                         date: 'January 19, 2026',
-                        description: 'Join us for our Sunday morning worship service at Harvest Baptist Church San Juan.'
+                        description: 'Join us for our worship service at Harvest Baptist Church San Juan.'
                     },
                     {
                         id: 'mIeRU12STNw',
-                        title: 'Sunday Evening Service',
+                        title: 'Gospel Hour',
                         date: 'January 19, 2026',
-                        description: 'Join us for our Sunday evening service at Harvest Baptist Church San Juan.'
+                        description: 'Join us for our Gospel Hour service at Harvest Baptist Church San Juan.'
                     }
                 ];
 
@@ -1050,9 +1058,10 @@
         }
 
         const SERVICE_SCHEDULE = [
-            { day: 0, hour: 10, minute: 30, label: 'Sunday 10:30 AM' },
-            { day: 0, hour: 18, minute: 0, label: 'Sunday 6:00 PM' },
-            { day: 3, hour: 19, minute: 0, label: 'Wednesday 7:00 PM' }
+            { day: 0, hour: 9, minute: 30, label: 'Sunday School 9:30 AM' },
+            { day: 0, hour: 10, minute: 30, label: 'Worship Service 10:30 AM' },
+            { day: 0, hour: 14, minute: 0, label: 'Gospel Hour 2:00 PM' },
+            { day: 3, hour: 19, minute: 30, label: 'Wednesday Prayer Meeting 7:30 PM' }
         ];
 
         function getNextServiceTime(nowTz) {
@@ -1133,7 +1142,29 @@
             const featuredFrame = document.getElementById('featuredVideoFrame');
             const placeholder = document.getElementById('livePlaceholder');
             const featuredTitle = document.getElementById('featuredVideoTitle');
+            const liveOverlay = document.querySelector('.live-overlay');
             const timeZone = 'America/Chicago';
+
+            if (!USE_LIVE_STREAM) {
+                if (featuredFrame && featuredFrame.src !== `https://www.youtube.com/embed/${FEATURED_VIDEO_ID}`) {
+                    featuredFrame.src = `https://www.youtube.com/embed/${FEATURED_VIDEO_ID}`;
+                }
+                if (featuredTitle) {
+                    featuredTitle.textContent = FEATURED_VIDEO_TITLE;
+                }
+                const featuredDate = document.getElementById('featuredVideoDate');
+                if (featuredDate) {
+                    featuredDate.textContent = FEATURED_VIDEO_DATE;
+                }
+                if (placeholder) {
+                    placeholder.classList.add('hidden');
+                }
+                if (liveOverlay) {
+                    liveOverlay.style.display = 'none';
+                }
+                return;
+            }
+
             const nowTz = getNowInTimeZone(timeZone);
             const next = getNextServiceTime(nowTz);
 
@@ -1224,8 +1255,6 @@
     </script>
 </body>
 </html>
-
-
 
 
 
