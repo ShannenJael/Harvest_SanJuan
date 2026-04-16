@@ -60,6 +60,7 @@ NAV = """    <div class="top-bar"><div class="container"><div class="top-bar-con
             <li class="dropdown"><a href="#">Media <i class="fas fa-chevron-down"></i></a>
                 <ul class="dropdown-menu">
                     <li><a href="watch.html">Watch</a></li>
+                    <li><a href="media/learn-signs.html">Learn Signs</a></li>
                     <li><a href="https://www.facebook.com/" target="_blank">Connect on Facebook</a></li>
                     <li><a href="media-library.html">Harvest Media Library</a></li>
                     <li><a href="privacy.html">Privacy Policy</a></li>

@@ -71,3 +71,4 @@ if ($mailSent) {
     echo json_encode(['success' => false, 'message' => 'Sorry, there was an error sending your message. Please try again or call us directly.']);
 }
 ?>
+

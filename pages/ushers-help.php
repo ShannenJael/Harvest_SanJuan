@@ -119,3 +119,4 @@ if (!isset($_SESSION['ushers_help_auth']) || $_SESSION['ushers_help_auth'] !== t
 }
 
 readfile(__DIR__ . '/ushers-help-content.html');
+

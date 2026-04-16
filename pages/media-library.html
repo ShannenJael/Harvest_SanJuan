@@ -65,6 +65,40 @@
             align-items: center;
         }
 
+        .media-shortcuts {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin: 0 0 24px;
+        }
+
+        .media-shortcut-card {
+            flex: 1 1 280px;
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 16px;
+            padding: 20px;
+        }
+
+        .media-shortcut-card h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .media-shortcut-card h3 i {
+            color: #d4af37;
+        }
+
+        .media-shortcut-card p {
+            color: rgba(255,255,255,0.72);
+            margin-bottom: 16px;
+            line-height: 1.6;
+        }
+
         .user-info {
             color: rgba(255,255,255,0.7);
             font-size: 0.9rem;
@@ -593,6 +627,10 @@
                 text-align: center;
             }
 
+            .media-shortcuts {
+                flex-direction: column;
+            }
+
             .content-header {
                 flex-direction: column;
                 gap: 15px;
@@ -642,6 +680,14 @@
                     </button>
                 </div>
             </header>
+
+            <div class="media-shortcuts">
+                <div class="media-shortcut-card">
+                    <h3><i class="fas fa-hands"></i> Learn Signs</h3>
+                    <p>Open the dedicated sign-language page under Media. This is the church-specific page where we can place the full teaching video collection.</p>
+                    <a href="media/learn-signs.html" class="btn btn-primary">Open Learn Signs</a>
+                </div>
+            </div>
 
             <div class="library-layout" id="libraryLayout">
                 <!-- Sidebar -->

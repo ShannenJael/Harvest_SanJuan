@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn Signs at Harvest Baptist Church San Juan. Browse sign language teaching videos and resources.">
+    <title>Learn Signs | Harvest Baptist Church San Juan</title>
+
+    <link rel="icon" type="image/png" href="../../images/hbcsanjuan_logo_with_border.png">
+    <link rel="apple-touch-icon" href="../../images/hbcsanjuan_logo_with_border.png">
+    <link rel="manifest" href="../../manifest.json">
+    <meta name="theme-color" content="#14AFB1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="HBC San Juan">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <style>
+        .page-header.learn-signs-header {
+            background:
+                linear-gradient(rgba(7, 39, 49, 0.82), rgba(20, 175, 177, 0.78)),
+                radial-gradient(circle at top right, rgba(212, 175, 55, 0.35), transparent 38%);
+        }
+
+        .learn-signs-library {
+            padding: 70px 0 90px;
+            background: #f6fbfb;
+        }
+
+        .learn-signs-library-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 24px;
+        }
+
+        .learn-signs-card {
+            background: #fff;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 16px 40px rgba(9, 35, 46, 0.08);
+            border: 1px solid rgba(20, 175, 177, 0.12);
+        }
+
+        .learn-signs-card video {
+            width: 100%;
+            display: block;
+            background: #091f28;
+            aspect-ratio: 16 / 9;
+        }
+
+        .learn-signs-card-body {
+            padding: 22px 22px 24px;
+        }
+
+        .learn-signs-card h3 {
+            margin-bottom: 12px;
+            color: #17313a;
+            font-size: 1.15rem;
+        }
+
+        .learn-signs-card p {
+            color: #5e737c;
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        .video-meta {
+            margin-top: 14px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .video-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: rgba(20, 175, 177, 0.10);
+            color: #0e6d6e;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        @media (max-width: 900px) {
+            .learn-signs-library-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="top-bar-logo">
+                    <a href="../../index.html"><img src="../../images/hbcsanjuan_logo_with_border.png" alt="Harvest Baptist Church San Juan Logo"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="mobile-logo">
+                    <a href="../../index.html"><img src="../../images/hbcsanjuan_logo_with_border.png" alt="Harvest Baptist Church San Juan Logo"></a>
+                </div>
+
+                <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+                    <span class="menu-icon"><span></span><span></span><span></span></span>
+                    <span class="menu-label">Menu</span>
+                </button>
+
+                <ul class="nav-menu">
+                    <li class="dropdown">
+                        <a href="#">I'm New <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../mission.html">Our Mission</a></li>
+                            <li><a href="../beliefs.html">What We Believe</a></li>
+                            <li><a href="../staff.html">Meet Our Staff</a></li>
+                            <li><a href="../visit.html">Plan Your Visit</a></li>
+                            <li><a href="../contact.html">Contact Us</a></li>
+                            <li><a href="../visitors-card.html">Visitors Card</a></li>
+                            <li><a href="../prayer.html">Prayer Requests</a></li>
+                            <li><a href="../counseling.html">Counseling</a></li>
+                            <li><a href="../heaven.html">Heaven</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../next-steps.html">Next Steps</a></li>
+                    <li class="dropdown">
+                        <a href="../ministries.html">Ministries <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu two-column">
+                            <li><a href="../children.html">Kids</a></li>
+                            <li><a href="../missions.html">Missions</a></li>
+                            <li><a href="../visitation.html">Visitation</a></li>
+                            <li class="dropdown sub-dropdown">
+                                <a href="#">More <i class="fas fa-chevron-down"></i></a>
+                                <ul class="dropdown-menu sub-menu">
+                                    <li><a href="../ushers-help.php">Ushers Help</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Media <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../watch.html">Watch</a></li>
+                            <li><a href="https://www.facebook.com/" target="_blank">Connect on Facebook</a></li>
+                            <li><a href="../media-library.html">Harvest Media Library</a></li>
+                            <li><a href="../privacy.html">Privacy Policy</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../directions.html">Directions</a></li>
+                    <li><a href="../give.html">Give</a></li>
+                </ul>
+
+                <div class="nav-cta-buttons">
+                    <a href="../visit.html" class="btn btn-nav-outline">Plan Your Visit</a>
+                    <a href="../heaven.html" class="btn btn-nav-filled">Heaven</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header learn-signs-header">
+        <div class="page-header-overlay"></div>
+        <div class="container">
+            <h1>Learn Signs</h1>
+            <p>Video-based sign language lessons and ministry resources from Harvest Baptist Church San Juan.</p>
+        </div>
+    </section>
+
+    <section class="learn-signs-library">
+        <div class="container">
+            <div class="learn-signs-library-grid">
+            <article class="learn-signs-card">
+                <video controls preload="metadata">
+                    <source src="videos/days-of-the-week.mp4" type="video/mp4">
+                </video>
+                <div class="learn-signs-card-body">
+                    <h3>Days of the Week</h3>
+                    <p>Practice common day names in sign language.</p>
+                    <div class="video-meta"><span class="video-tag"><i class="fas fa-calendar-alt"></i> Everyday Signs</span></div>
+                </div>
+            </article>
+            <article class="learn-signs-card">
+                <video controls preload="metadata">
+                    <source src="videos/animals-signs.mp4" type="video/mp4">
+                </video>
+                <div class="learn-signs-card-body">
+                    <h3>Animal Signs Part 1</h3>
+                    <p>Learn foundational animal-related vocabulary signs.</p>
+                    <div class="video-meta"><span class="video-tag"><i class="fas fa-paw"></i> Vocabulary</span></div>
+                </div>
+            </article>
+            <article class="learn-signs-card">
+                <video controls preload="metadata">
+                    <source src="videos/animals-signs-part-2.mp4" type="video/mp4">
+                </video>
+                <div class="learn-signs-card-body">
+                    <h3>Animal Signs Part 2</h3>
+                    <p>Continue learning additional animal vocabulary and review patterns.</p>
+                    <div class="video-meta"><span class="video-tag"><i class="fas fa-paw"></i> Vocabulary</span></div>
+                </div>
+            </article>
+            <article class="learn-signs-card">
+                <video controls preload="metadata">
+                    <source src="videos/countries-signs.mp4" type="video/mp4">
+                </video>
+                <div class="learn-signs-card-body">
+                    <h3>Country Signs</h3>
+                    <p>Learn sign language for countries and place names.</p>
+                    <div class="video-meta"><span class="video-tag"><i class="fas fa-globe-asia"></i> Geography</span></div>
+                </div>
+            </article>
+            <article class="learn-signs-card">
+                <video controls preload="metadata">
+                    <source src="videos/national-signs.mp4" type="video/mp4">
+                </video>
+                <div class="learn-signs-card-body">
+                    <h3>National Signs</h3>
+                    <p>Practice signs connected to national identity and related words.</p>
+                    <div class="video-meta"><span class="video-tag"><i class="fas fa-flag"></i> Community</span></div>
+                </div>
+            </article>
+            <article class="learn-signs-card">
+                <video controls preload="metadata">
+                    <source src="videos/religious-signs.mp4" type="video/mp4">
+                </video>
+                <div class="learn-signs-card-body">
+                    <h3>Religious Signs</h3>
+                    <p>Bible and ministry-related terms presented in sign language.</p>
+                    <div class="video-meta"><span class="video-tag"><i class="fas fa-cross"></i> Ministry Terms</span></div>
+                </div>
+            </article>
+            <article class="learn-signs-card">
+                <video controls preload="metadata">
+                    <source src="videos/sign-names-people-bible-old-testament.mp4" type="video/mp4">
+                </video>
+                <div class="learn-signs-card-body">
+                    <h3>Bible Names and People</h3>
+                    <p>Signs for Bible names and people from Old Testament lessons.</p>
+                    <div class="video-meta"><span class="video-tag"><i class="fas fa-book-bible"></i> Bible Study</span></div>
+                </div>
+            </article>
+            <article class="learn-signs-card">
+                <video controls preload="metadata">
+                    <source src="videos/emotion-signs.mp4" type="video/mp4">
+                </video>
+                <div class="learn-signs-card-body">
+                    <h3>Emotion Signs Part 1</h3>
+                    <p>Start learning emotion and feeling words in sign language.</p>
+                    <div class="video-meta"><span class="video-tag"><i class="fas fa-face-smile"></i> Emotions</span></div>
+                </div>
+            </article>
+            <article class="learn-signs-card">
+                <video controls preload="metadata">
+                    <source src="videos/emotion-signs-part-2.mp4" type="video/mp4">
+                </video>
+                <div class="learn-signs-card-body">
+                    <h3>Emotion Signs Part 2</h3>
+                    <p>Continue practicing more emotion-related expressions and signs.</p>
+                    <div class="video-meta"><span class="video-tag"><i class="fas fa-face-smile"></i> Emotions</span></div>
+                </div>
+            </article>
+            <article class="learn-signs-card">
+                <video controls preload="metadata">
+                    <source src="videos/emotion-signs-part-3.mp4" type="video/mp4">
+                </video>
+                <div class="learn-signs-card-body">
+                    <h3>Emotion Signs Part 3</h3>
+                    <p>Build confidence with a longer set of signs for feelings and reactions.</p>
+                    <div class="video-meta"><span class="video-tag"><i class="fas fa-face-smile"></i> Emotions</span></div>
+                </div>
+            </article>
+            <article class="learn-signs-card">
+                <video controls preload="metadata">
+                    <source src="videos/emotion-signs-part-4.mp4" type="video/mp4">
+                </video>
+                <div class="learn-signs-card-body">
+                    <h3>Emotion Signs Part 4</h3>
+                    <p>Finish the current series of sign-language emotion lessons.</p>
+                    <div class="video-meta"><span class="video-tag"><i class="fas fa-face-smile"></i> Emotions</span></div>
+                </div>
+            </article>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Harvest Baptist Church San Juan</h3>
+                    <p>San Juan, Philippines</p>
+                    <p class="footer-tagline">A place you can call home.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Service Times</h4>
+                    <p>Sunday School: 9:30 - 10:30 AM</p>
+                    <p>Worship Service: 10:30 - 11:30 AM</p>
+                    <p>Gospel Hour: 2:00 PM - 4:00 PM</p>
+                    <p>Wednesday Prayer Meeting: 7:30 - 8:30 PM</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="../about.html">About Us</a></li>
+                        <li><a href="../beliefs.html">What We Believe</a></li>
+                        <li><a href="../ministries.html">Ministries</a></li>
+                        <li><a href="../contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 44 San Perfecto St., San Juan, Metro Manila 1500, Philippines</p>
+                    <p><i class="fas fa-phone"></i> 09274814536</p>
+                    <p><i class="fas fa-envelope"></i> harvestbaptistchurch@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Harvest Baptist Church San Juan of San Juan, Philippines. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/main.js"></script>
+    <script src="../../js/pwa-install.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+    </script>
+</body>
+</html>
